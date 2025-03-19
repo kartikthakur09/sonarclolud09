@@ -22,8 +22,8 @@ jobs:
       with:
         projectBaseDir: .
         args: >
-          -Dsonar.organization=kartikthakur09
-          -Dsonar.projectKey=kartikthakur09
+          -Dsonar.organization=kartikthakur008
+          -Dsonar.projectKey=kartikthakur008_kartikthakur008
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
