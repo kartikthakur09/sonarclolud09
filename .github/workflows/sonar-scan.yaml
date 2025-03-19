@@ -22,7 +22,7 @@ jobs:
       with:
         projectBaseDir: .
         args: >
-          -Dsonar.organization=kartik thakur
+          -Dsonar.organization=kartikthakur09
           -Dsonar.projectKey=kartikthakur09
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
